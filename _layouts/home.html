@@ -14,8 +14,25 @@ layout: default
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}января
+          {% when '2' %}февраля
+          {% when '3' %}марта
+          {% when '4' %}апреля
+          {% when '5' %}мая
+          {% when '6' %}июня
+          {% when '7' %}июля
+          {% when '8' %}августа
+          {% when '9' %}сентября
+          {% when '10' %}октября
+          {% when '11' %}ноября
+          {% when '12' %}декабря
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </time>      
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
