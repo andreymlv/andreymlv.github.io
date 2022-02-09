@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
+title: Обо мне
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Личная информация
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- День рождения: 01.02.2002
+- Откуда я: Тверь, Тверская область, Россия
+- Специальность: программная инженерия
+- На кого учусь: бакалавр в компьютерных науках
+- Когда поступил в вуз: 01.09.2019
+- Кто ты: русский, есть предки карелы
+- Работа: учиться
+- Где живу: общежитие
