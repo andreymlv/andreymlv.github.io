@@ -1,47 +1,28 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
 title: Домашняя страница Андрея Малова
 email: ndrmlv@ya.ru
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Добро пожаловать на домашнюю страницу Андрея Малова (andreymlv)!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://andreymlv.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://andreymlv.com"
 twitter_username: andreymlv
-github_username:  andreymlv
+github_username: andreymlv
 lang: ru
 
-# Disqus Comments
 disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: andreymlv-com
+  shortname: andreymlv-com
 
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
