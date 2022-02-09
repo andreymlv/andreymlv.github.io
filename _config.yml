@@ -13,6 +13,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andreymlv.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: andreymlv
 github_username:  andreymlv
+lang: ru
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: andreymlv-com
 
 # Build settings
 theme: minima
